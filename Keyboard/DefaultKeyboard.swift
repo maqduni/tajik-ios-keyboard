@@ -9,13 +9,13 @@
 func defaultKeyboard() -> Keyboard {
     let defaultKeyboard = Keyboard()
     
-    for key in ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"] {
+    for key in ["Й", "Қ", "У", "К", "Е", "Н", "Г", "Ш", "Ҳ", "З", "Х", "Ъ", "Ё"] {
         let keyModel = Key(.Character)
         keyModel.setLetter(key)
         defaultKeyboard.addKey(keyModel, row: 0, page: 0)
     }
     
-    for key in ["A", "S", "D", "F", "G", "H", "J", "K", "L"] {
+    for key in ["Ф", "Ҷ", "В", "А", "П", "Р", "О", "Л", "Д", "Ж", "Э", "Ғ", "Ӯ"] {
         let keyModel = Key(.Character)
         keyModel.setLetter(key)
         defaultKeyboard.addKey(keyModel, row: 1, page: 0)
@@ -24,7 +24,7 @@ func defaultKeyboard() -> Keyboard {
     let keyModel = Key(.Shift)
     defaultKeyboard.addKey(keyModel, row: 2, page: 0)
     
-    for key in ["Z", "X", "C", "V", "B", "N", "M"] {
+    for key in ["Я", "Ч", "С", "М", "И", "Ӣ", "Б", "Ю"] {
         let keyModel = Key(.Character)
         keyModel.setLetter(key)
         defaultKeyboard.addKey(keyModel, row: 2, page: 0)
